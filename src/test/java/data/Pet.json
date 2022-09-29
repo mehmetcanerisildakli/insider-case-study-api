@@ -1,0 +1,74 @@
+{
+  "PET-1": {
+    "id": 100,
+    "category": {
+      "id": 100,
+      "name": "A"
+    },
+    "name": "dog1",
+    "photoUrls": [
+      "/insider-case-study-api/pic/dog.jpeg"
+    ],
+    "tags": [
+      {
+        "id": 100,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  "UPDATED-PET-1": {
+    "id": 101,
+    "category": {
+      "id": 101,
+      "name": "DOG1"
+    },
+    "name": 100,
+    "photoUrls": [
+      "/insider-case-study-api/pic/dog.jpeg"
+    ],
+    "tags": [
+      {
+        "id": 100,
+        "name": "string"
+      }
+    ],
+    "status": "available"
+  },
+  "WRONG-PET-1": {
+    "id": "aaa",
+    "category": {
+      "id": 1,
+      "name": 1
+    },
+    "name": "",
+    "photoUrls": [
+      ""
+    ],
+    "tags": [
+      {
+        "id": 103,
+        "name": "dog3"
+      }
+    ],
+    "status": ""
+  },
+  "WRONG-PET-2": {
+    "id": 109109,
+    "category": {
+      "id": 1,
+      "name": 1
+    },
+    "name": "",
+    "photoUrls": [
+      ""
+    ],
+    "tags": [
+      {
+        "id": 103,
+        "name": "dog3"
+      }
+    ],
+    "status": ""
+  }
+}
