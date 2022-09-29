@@ -1,0 +1,9 @@
+<suite name="testSuite">
+    <tests name="insiderAPITests">
+        <test name="insiderAPICase">
+            <classes>
+                <class name="tests.InsiderRest"> </class>
+            </classes>
+        </test>
+    </tests>
+</suite>
