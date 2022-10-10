@@ -19,14 +19,14 @@ public class InsiderRest {
         pet.deleteAPet("PET-1", 200);
     }
 
-    //@Test (priority=2)
+    @Test (priority=2)
     public void negativeCases() {
 
         pet.notAddANewPet("WRONG-PET-1", 500);
         pet.notUploadAnImage("WRONG-PET-2", 404);
         pet.notFindPetById("WRONG-PET-2", 404);
         pet.notUpdateAPet("WRONG-PET-1", 500);
-        pet.notUpdateWithFormData("PET-1", 200);
+        pet.notUpdateWithFormData("PET-1", 415);
         pet.notDeleteAPet("WRONG-PET-2", 404);
     }
 }
